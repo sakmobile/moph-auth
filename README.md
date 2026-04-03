@@ -31,12 +31,12 @@ composer require sakwerachai/moph-auth
 
 ```php
 return [
-    'health_url' => 'https://uat-moph.id.th',
+    'health_url' => 'https://moph.id.th',
     'client_id' => 'YOUR_CLIENT_ID',
     'client_secret' => 'YOUR_CLIENT_SECRET',
     'redirect_uri' => 'http://localhost/callback.php',
 
-    'provider_url' => 'https://uat-provider.id.th',
+    'provider_url' => 'https://provider.id.th',
     'provider_client_id' => 'YOUR_PROVIDER_CLIENT_ID',
     'provider_secret' => 'YOUR_PROVIDER_SECRET',
 ];
@@ -177,3 +177,70 @@ Pull requests ยินดีต้อนรับ 🙌
 หากพบปัญหา สามารถเปิด issue ได้เลย
 
 ---
+
+---
+
+## ❤️ สนับสนุนค่ากาแฟ
+
+หาก Library นี้ช่วยให้งานของคุณง่ายขึ้น ☕
+สามารถสนับสนุนผู้พัฒนาเพื่อเป็นกำลังใจในการพัฒนาต่อได้ครับ
+
+> 🙏 ทุกการสนับสนุนมีความหมายมาก
+
+**ช่องทางสนับสนุน**
+
+* 💸 PromptPay: `0991013326`
+* 📱 หรือช่องทางอื่น ๆ ตามสะดวก
+
+---
+
+## 🛒 บริการ / ติดต่อพัฒนาเพิ่มเติม
+
+หากต้องการ:
+
+* เชื่อมต่อระบบ **HIS / HOSxP / JHCIS**
+* ทำระบบ **SSO Login ทั้งองค์กร**
+* เชื่อมต่อ **WiFi Login / Captive Portal / Firewall (Fortigate)**
+* พัฒนาระบบเฉพาะสำหรับโรงพยาบาล
+
+สามารถติดต่อได้ที่:
+
+* 🌐 GitHub: https://github.com/sakmobile/moph-auth
+* 📧 Email: [sak.janenii@email.com](mailto:sak.janenii@email.com)
+* 💬 Line: yourlineid
+
+---
+
+## 🤝 สำหรับพี่น้อง IT โรงพยาบาล
+
+โปรเจคนี้จัดทำขึ้นเพื่อ:
+
+> 🎯 **แบ่งปันความรู้ และช่วยลดภาระงานของเพื่อน ๆ พี่ ๆ IT โรงพยาบาลทั่วประเทศ**
+
+สามารถ:
+
+* ✅ นำไปใช้งานได้ฟรี
+* ✅ แก้ไข / ปรับปรุงได้
+* ✅ ต่อยอดได้เต็มที่
+
+ภายใต้ MIT License 🎉
+
+---
+
+## 📢 หมายเหตุเพิ่มเติม
+
+* Library นี้เป็น **Open Source**
+* ไม่มีค่าใช้จ่ายในการใช้งาน
+* หากพบปัญหา หรืออยากให้เพิ่ม feature สามารถเปิด Issue ได้เลย
+
+---
+
+## ⭐ ฝากกด Star ให้กำลังใจ
+
+หากโปรเจคนี้มีประโยชน์
+ฝากกด ⭐ บน GitHub เพื่อเป็นกำลังใจด้วยนะครับ 🙏
+
+👉 https://github.com/sakmobile/moph-auth
+
+---
+
