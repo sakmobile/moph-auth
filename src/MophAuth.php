@@ -36,7 +36,9 @@ class MophAuth
         );
 
         if (!isset($response['data']['access_token'])) {
-            throw new Exception("Health Token Error: " . json_encode($response));
+            if (!isset($response['data']['access_token'])) {
+                throw new \Exception("Health Token Error: " . json_encode($response));
+            }
         }
 
         return $response['data']['access_token'];
@@ -56,7 +58,7 @@ class MophAuth
         );
 
     if (!isset($response['data']['access_token'])) {
-        throw new Exception("Provider Token Error: " . json_encode($response));
+        throw new \Exception("Provider Token Error: " . json_encode($response));
     }
 
         return $response;
@@ -73,7 +75,7 @@ class MophAuth
         $response = $this->getRequest($url, $providerToken);
 
         if (!isset($response['status']) || $response['status'] != 200) {
-            throw new Exception("Profile Error: " . json_encode($response));
+            throw new \Exception("Profile Error: " . json_encode($response));
         }
 
         return $response['data'] ?? [];
@@ -94,7 +96,7 @@ class MophAuth
         $result = curl_exec($ch);
 
         if (curl_errno($ch)) {
-            throw new Exception(curl_error($ch));
+            throw new \Exception(curl_error($ch));
         }
 
         curl_close($ch);
@@ -116,7 +118,7 @@ class MophAuth
         $result = curl_exec($ch);
 
         if (curl_errno($ch)) {
-            throw new Exception(curl_error($ch));
+            throw new \Exception(curl_error($ch));
         }
 
         curl_close($ch);
@@ -141,7 +143,7 @@ class MophAuth
         $result = curl_exec($ch);
 
         if (curl_errno($ch)) {
-            throw new Exception(curl_error($ch));
+            throw new \Exception(curl_error($ch));
         }
 
         curl_close($ch);
