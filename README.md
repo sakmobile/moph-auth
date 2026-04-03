@@ -20,7 +20,7 @@
 ติดตั้งผ่าน Composer:
 
 ```bash
-composer require sakwerachai/moph-auth
+composer require sakmobile/moph-auth
 ```
 
 ---
