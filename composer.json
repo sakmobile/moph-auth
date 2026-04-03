@@ -1,0 +1,14 @@
+{
+  "name": "sakmobile/moph-auth",  
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "sakmobile\\MophAuth\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "minimum-stability": "stable"
+}
