@@ -196,13 +196,13 @@ Pull requests ยินดีต้อนรับ 🙌
 
 ## 🛒 บริการ / ติดต่อพัฒนาเพิ่มเติม
 
-หากต้องการ:
+<!--หากต้องการ:
 
 * เชื่อมต่อระบบ **HIS / HOSxP / JHCIS**
 * ทำระบบ **SSO Login ทั้งองค์กร**
 * เชื่อมต่อ **WiFi Login / Captive Portal / Firewall (Fortigate)**
 * พัฒนาระบบเฉพาะสำหรับโรงพยาบาล
-
+-->
 สามารถติดต่อได้ที่:
 
 * 🌐 GitHub: https://github.com/sakmobile/moph-auth
